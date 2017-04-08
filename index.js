@@ -13,7 +13,7 @@ var App = React.createClass({
             <div>
                 <p>Hello {this.state.name}</p>
                 <input type="text" onChange={this.onNameChange} />
-                <div><cowclicker/></div>
+                <cowclicker></cowclicker>
             </div>
         );
 

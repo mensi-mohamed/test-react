@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import  cowclicker  from './CowClicker'
+import  CowClicker  from './CowClicker'
 var App = React.createClass({
     getInitialState() {
         return { name : 'test' };
@@ -13,7 +13,7 @@ var App = React.createClass({
             <div>
                 <p>Hello {this.state.name}</p>
                 <input type="text" onChange={this.onNameChange} />
-                <cowclicker></cowclicker>
+                <CowClicker/>
             </div>
         );
 

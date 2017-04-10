@@ -8,7 +8,7 @@ var CowClicker = React.createClass({
     },
 
     onCowClick: function(evt) {
-        this.setState({});
+        this.setState({clicks: this.state.clicks + 1});
     },
     render() {
         return (

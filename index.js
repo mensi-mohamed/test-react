@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { cowclicker } from './CowClicker'
+import  cowclicker  from './CowClicker'
 var App = React.createClass({
     getInitialState() {
         return { name : 'test' };
